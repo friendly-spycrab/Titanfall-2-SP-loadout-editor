@@ -7,7 +7,9 @@ A tool for changing the loadout in singleplayer without editing vpk files
 #List of valid weapons
 
 melee_pilot_arena.txt
+
 melee_pilot_emptyhanded.txt
+
 melee_pilot_sword.txt
 melee_titan_punch.txt
 melee_titan_punch_fighter.txt
