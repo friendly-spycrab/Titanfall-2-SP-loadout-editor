@@ -1,0 +1,32 @@
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\bin\x64\Debug\Titanfall 2 modder.exe.config
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\bin\x64\Debug\Titanfall 2 modder.exe
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\bin\x64\Debug\Titanfall 2 modder.pdb
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\bin\x64\Debug\Titanfall2ModdingLibrary.dll
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\bin\x64\Debug\Titanfall2ModdingLibrary.pdb
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder.csprojResolveAssemblyReference.cache
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\MainWindow.g.cs
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\App.g.cs
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder_MarkupCompile.cache
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder_MarkupCompile.lref
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\MainWindow.baml
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder.g.resources
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall_2_modder.Properties.Resources.resources
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder.csproj.GenerateResource.Cache
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder.exe
+C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder.pdb
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\bin\x64\Debug\Titanfall 2 modder.exe.config
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder.exe
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder.pdb
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\bin\x64\Debug\Titanfall 2 modder.exe
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\bin\x64\Debug\Titanfall 2 modder.pdb
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\bin\x64\Debug\Titanfall2ModdingLibrary.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\bin\x64\Debug\Titanfall2ModdingLibrary.pdb
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder.csprojResolveAssemblyReference.cache
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\MainWindow.g.cs
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\App.g.cs
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder_MarkupCompile.cache
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder_MarkupCompile.lref
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\MainWindow.baml
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder.g.resources
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall_2_modder.Properties.Resources.resources
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall 2 modder\obj\x64\Debug\Titanfall 2 modder.csproj.GenerateResource.Cache

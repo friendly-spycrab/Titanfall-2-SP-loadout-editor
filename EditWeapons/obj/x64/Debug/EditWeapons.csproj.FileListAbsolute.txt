@@ -1,0 +1,16 @@
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\EditWeapons.exe.config
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\EditWeapons.exe
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\EditWeapons.pdb
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\Titanfall2ModdingLibrary.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\Titanfall2ModdingLibrary.pdb
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons.csprojResolveAssemblyReference.cache
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\MainWindow.g.cs
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\App.g.cs
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons_MarkupCompile.cache
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons_MarkupCompile.lref
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\MainWindow.baml
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons.g.resources
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons.Properties.Resources.resources
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons.csproj.GenerateResource.Cache
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons.exe
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons.pdb
