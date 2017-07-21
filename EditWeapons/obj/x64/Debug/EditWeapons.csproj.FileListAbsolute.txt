@@ -14,3 +14,5 @@ C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons
 C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons.csproj.GenerateResource.Cache
 C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons.exe
 C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons.pdb
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\InsertAddress.g.cs
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\InsertAddress.baml

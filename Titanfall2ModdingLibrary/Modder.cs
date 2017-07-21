@@ -117,6 +117,19 @@ namespace Titanfall2ModdingLibrary
 
         }
 
+        /// <summary>
+        /// Returns the address if true. else returns -1
+        /// </summary>
+        public long TestAddress(long Address, string expectedresult)
+        {
+            string Result = Encoding.ASCII.GetString(GetMemory(Address, expectedresult.Length));
+            if (Result == expectedresult)
+                return Address;
+
+            return -1;
+
+        }
+
     }
 
     public struct Pointer
