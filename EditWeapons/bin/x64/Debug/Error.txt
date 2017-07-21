@@ -1,0 +1,5 @@
+System.ArgumentOutOfRangeException: Indekset lå uden for området. Det må ikke være negativt og skal være mindre end størrelsen på samlingen.
+Parameternavn: index
+   ved System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   ved System.Collections.Generic.List`1.get_Item(Int32 index)
+   ved EditWeapons.App.OnStartup(StartupEventArgs e) i C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\App.xaml.cs:linje 21

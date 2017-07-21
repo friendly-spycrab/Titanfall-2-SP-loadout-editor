@@ -5,7 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-
+using System.IO;
 namespace EditWeapons
 {
     /// <summary>
@@ -13,5 +13,19 @@ namespace EditWeapons
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            try
+            {
+                base.OnStartup(e);
+            }
+            catch (Exception ex)
+            {
+                File.WriteAllText("Error.txt",ex.ToString());
+                System.Windows.Forms.MessageBox.Show("sorry an exception occured");
+                Environment.Exit(-1);
+            }
+            // here you take control
+        }
     }
 }
