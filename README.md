@@ -2,6 +2,8 @@
 
 A tool for changing the loadout in singleplayer without editing vpk files
 
+if titanfall 2 gives you a precache error. then i cannot do anything about it.
+
 ## List of valid weapons
 
 * melee_pilot_arena.txt
