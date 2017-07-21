@@ -25,7 +25,6 @@ namespace EditWeapons
                 System.Windows.Forms.MessageBox.Show("sorry an exception occured");
                 Environment.Exit(-1);
             }
-            // here you take control
         }
     }
 }

@@ -56,6 +56,7 @@ namespace EditWeapons
 
             if(ReturnedAddress == -1)
             {
+                //Go through every sqlite database and search for a valid pointer
                 foreach (var item in Directory.GetFiles("PointerDataBase"))
                 {
                     List<Pointer> Pointers = SQLiteLoader.GetPointerListFromSQLiteFile(item);
@@ -65,10 +66,11 @@ namespace EditWeapons
                 }
             }
 
+            //Ask for the address
             while (ReturnedAddress == -1)
                 ReturnedAddress = InsertAddressBox.Show();
 
-
+            //Replace strings so it fits the new value
             string Finished = Loadout.Replace("%PilotLoadoutPrimary%", Primary.Text)
                                      .Replace("%PilotLoadoutSecondary%", Secondary.Text)
                                      .Replace("%PilotLoadoutOrdnance%", Ordnance.Text)
