@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Titanfall2ModdingLibrary;
+using System.IO;
 
 namespace EditWeapons
 {
@@ -31,9 +32,9 @@ namespace EditWeapons
 
         private void Write_Click(object sender, RoutedEventArgs e)
         {
-
             Mod = new Modder();
 
+            //Test some hardcoded pointers first because its faster
             if (ReturnedAddress != Mod.TestAddress(ReturnedAddress, "global function GetPilotLoadoutForCurrentMapSP"))
                 ReturnedAddress = Mod.TestPointers(new Pointer[]
                 {
@@ -52,6 +53,17 @@ namespace EditWeapons
                     Mod.TheArk,
                     Mod.TheFoldWeapon
                 }, "global function GetPilotLoadoutForCurrentMapSP");
+
+            if(ReturnedAddress == -1)
+            {
+                foreach (var item in Directory.GetFiles("PointerDataBase"))
+                {
+                    List<Pointer> Pointers = SQLiteLoader.GetPointerListFromSQLiteFile(item);
+                    ReturnedAddress = Mod.TestPointers(Pointers.ToArray(), "global function GetPilotLoadoutForCurrentMapSP");
+                    if (ReturnedAddress != -1)
+                        break;
+                }
+            }
 
             while (ReturnedAddress == -1)
                 ReturnedAddress = InsertAddressBox.Show();

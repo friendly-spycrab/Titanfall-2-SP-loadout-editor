@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Titanfall2ModdingLibrary
 {
@@ -83,6 +84,7 @@ namespace Titanfall2ModdingLibrary
             return Pointer(Lev.BaseAddress,Lev.offsets,Lev.ModuleName);
         }
 
+        //Returns the address of a pointer
         public long Pointer(long Address, long[] Offsets,string ModuleName)
         {
 
@@ -95,6 +97,7 @@ namespace Titanfall2ModdingLibrary
                     break;
                 }
             }
+
             for (int i = 0; i < Offsets.Length; i++)
             {
                 if(Offsets[i] > 0)

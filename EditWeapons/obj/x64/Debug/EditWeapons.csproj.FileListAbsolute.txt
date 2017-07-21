@@ -16,3 +16,11 @@ C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons
 C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\EditWeapons.pdb
 C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\InsertAddress.g.cs
 C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\obj\x64\Debug\InsertAddress.baml
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\System.Data.SQLite.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\System.Data.SQLite.xml
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\EntityFramework.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\EntityFramework.SqlServer.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\System.Data.SQLite.EF6.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\System.Data.SQLite.Linq.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\EntityFramework.xml
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\EntityFramework.SqlServer.xml

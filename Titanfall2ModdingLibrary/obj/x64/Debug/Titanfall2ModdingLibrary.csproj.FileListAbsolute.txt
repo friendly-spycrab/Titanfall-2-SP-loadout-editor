@@ -8,3 +8,12 @@ C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\bin\x64\Debu
 C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\obj\x64\Debug\Titanfall2ModdingLibrary.csprojResolveAssemblyReference.cache
 C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\obj\x64\Debug\Titanfall2ModdingLibrary.dll
 C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\obj\x64\Debug\Titanfall2ModdingLibrary.pdb
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\bin\x64\Debug\System.Data.SQLite.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\bin\x64\Debug\System.Data.SQLite.xml
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\bin\x64\Debug\Titanfall2ModdingLibrary.dll.config
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\bin\x64\Debug\EntityFramework.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\bin\x64\Debug\EntityFramework.SqlServer.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\bin\x64\Debug\System.Data.SQLite.EF6.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\bin\x64\Debug\System.Data.SQLite.Linq.dll
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\bin\x64\Debug\EntityFramework.xml
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\bin\x64\Debug\EntityFramework.SqlServer.xml
