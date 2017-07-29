@@ -56,18 +56,6 @@ namespace EditWeapons
                     Mod.TheFoldWeapon
                 }, "global function GetPilotLoadoutForCurrentMapSP");
 
-            if(ReturnedAddress == -1)
-            {
-                //Go through every sqlite database and search for a valid pointer
-                foreach (var item in Directory.GetFiles("PointerDataBase"))
-                {
-                    List<Pointer> Pointers = SQLiteLoader.GetPointerListFromSQLiteFile(item);
-                    ReturnedAddress = Mod.TestPointers(Pointers.ToArray(), "global function GetPilotLoadoutForCurrentMapSP");
-                    if (ReturnedAddress != -1)
-                        break;
-                }
-            }
-
             if (ReturnedAddress == -1)
                 ReturnedAddress = Mod.findAddress(Encoding.ASCII.GetBytes("global function GetPilotLoadoutForCurrentMapSP"));
 
