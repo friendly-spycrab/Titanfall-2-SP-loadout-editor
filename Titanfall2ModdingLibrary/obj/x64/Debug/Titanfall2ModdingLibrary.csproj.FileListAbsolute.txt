@@ -31,3 +31,4 @@ G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\x64\Debug\System.Data.S
 G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\obj\x64\Debug\Titanfall2ModdingLibrary.csprojResolveAssemblyReference.cache
 G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\obj\x64\Debug\Titanfall2ModdingLibrary.dll
 G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\obj\x64\Debug\Titanfall2ModdingLibrary.pdb
+C:\Users\fido1\OneDrive\Titanfall 2 modder\Titanfall2ModdingLibrary\bin\x64\Debug\System.Data.SQLite.dll.config

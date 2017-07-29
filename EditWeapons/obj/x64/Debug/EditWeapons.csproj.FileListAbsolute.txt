@@ -24,3 +24,5 @@ C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\System.Data
 C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\System.Data.SQLite.Linq.dll
 C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\EntityFramework.xml
 C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\EntityFramework.SqlServer.xml
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\Titanfall2ModdingLibrary.dll.config
+C:\Users\fido1\OneDrive\Titanfall 2 modder\EditWeapons\bin\x64\Debug\System.Data.SQLite.dll.config
