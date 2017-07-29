@@ -3,3 +3,17 @@ C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfal
 C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall2ModdingLibrary\obj\Debug\Titanfall2ModdingLibrary.csprojResolveAssemblyReference.cache
 C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall2ModdingLibrary\obj\Debug\Titanfall2ModdingLibrary.dll
 C:\Users\fido1\documents\visual studio 2015\Projects\Titanfall 2 modder\Titanfall2ModdingLibrary\obj\Debug\Titanfall2ModdingLibrary.pdb
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\Debug\Titanfall2ModdingLibrary.dll.config
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\Debug\Titanfall2ModdingLibrary.dll
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\Debug\Titanfall2ModdingLibrary.pdb
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\Debug\EntityFramework.dll
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\Debug\EntityFramework.SqlServer.dll
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\Debug\System.Data.SQLite.dll
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\Debug\System.Data.SQLite.EF6.dll
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\Debug\System.Data.SQLite.Linq.dll
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\Debug\EntityFramework.xml
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\Debug\EntityFramework.SqlServer.xml
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\bin\Debug\System.Data.SQLite.xml
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\obj\Debug\Titanfall2ModdingLibrary.csprojResolveAssemblyReference.cache
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\obj\Debug\Titanfall2ModdingLibrary.dll
+G:\Titanfall2 Memory editor\Titanfall2ModdingLibrary\obj\Debug\Titanfall2ModdingLibrary.pdb

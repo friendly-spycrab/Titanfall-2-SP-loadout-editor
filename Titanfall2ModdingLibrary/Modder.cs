@@ -22,7 +22,9 @@ namespace Titanfall2ModdingLibrary
         public readonly Pointer LatestLoadedVPKFiles = new Pointer() { offsets = new long[] { 0x98, 0x70, 0xf8, 0x588, 0x128 }, BaseAddress = 0x14057B30, ModuleName = "engine.dll" };
 
 
-
+        /// <summary>
+        /// Hardcoded pointer list to sp_loadouts file
+        /// </summary>
         #region Maps
         public readonly Pointer BT_7274 = new Pointer() { offsets = new long[] { 0x28,0x240,0x2b00, 0x00 }, BaseAddress = 0x00080F70, ModuleName = "launcher.dll" };
         public readonly Pointer Sewers = new Pointer() { offsets = new long[] { 0xc80,0x00 }, BaseAddress = 0x13F0A418, ModuleName = "engine.dll" };
@@ -62,6 +64,12 @@ namespace Titanfall2ModdingLibrary
 
         }
 
+        /// <summary>
+        /// Gets memory at address
+        /// </summary>
+        /// <param name="Address"></param>
+        /// <param name="Length"></param>
+        /// <returns></returns>
         public byte[] GetMemory(long Address,int Length)
         {
             byte[] buffer = new byte[Length];
@@ -72,8 +80,17 @@ namespace Titanfall2ModdingLibrary
             return buffer;
         }
 
+        /// <summary>
+        /// Writes data into memory. and automatically add a null at the end
+        /// </summary>
+        /// <param name="Address"></param>
+        /// <param name="Data"></param>
+        /// <returns>returns number of bytes written</returns>
         public int WriteMemory(long Address,byte[] Data)
         {
+            List<byte> Pad = new List<byte>(Data);
+            Pad.Add(0);
+            Data = Pad.ToArray();
             int bytesWritten = 0;
             WriteProcessMemory((int)processHandle, Address, Data, Data.Length, ref bytesWritten);
             return bytesWritten;
@@ -84,16 +101,28 @@ namespace Titanfall2ModdingLibrary
             return Pointer(Lev.BaseAddress,Lev.offsets,Lev.ModuleName);
         }
 
-        //Returns the address of a pointer
-        public long Pointer(long Address, long[] Offsets,string ModuleName)
+        public long findAddress(byte[] DataToFind)
+        {
+            return MemoryScan.findaddress(processHandle,DataToFind);
+
+        }
+
+        /// <summary>
+        /// Returns the address of a pointer
+        /// </summary>
+        /// <param name="BaseOffset">The base offset</param>
+        /// <param name="Offsets">FileOffsets</param>
+        /// <param name="ModuleName">The name of the dll file. example: Launcher.dll</param>
+        /// <returns>Returns the address</returns>
+        public long Pointer(long BaseOffset, long[] Offsets,string ModuleName)
         {
 
             foreach (ProcessModule item in process.Modules)
             {
                 if (item.ModuleName == ModuleName)
                 {
-                    Address += (long)item.BaseAddress;
-                    Address = BitConverter.ToInt64(GetMemory(Address, 8), 0);
+                    BaseOffset += (long)item.BaseAddress;
+                    BaseOffset = BitConverter.ToInt64(GetMemory(BaseOffset, 8), 0);
                     break;
                 }
             }
@@ -101,12 +130,19 @@ namespace Titanfall2ModdingLibrary
             for (int i = 0; i < Offsets.Length; i++)
             {
                 if(Offsets[i] > 0)
-                    Address = BitConverter.ToInt64(GetMemory(Address + Offsets[i],8),0);
+                    BaseOffset = BitConverter.ToInt64(GetMemory(BaseOffset + Offsets[i],8),0);
             }
 
-            return Address;
+            return BaseOffset;
         }
         
+
+        /// <summary>
+        /// Tests pointer and sees if they give the expected result. returns the first valid pointer
+        /// </summary>
+        /// <param name="Levels"></param>
+        /// <param name="expectedresult"></param>
+        /// <returns></returns>
         public long TestPointers(Pointer[] Levels,string expectedresult)
         {
             foreach (Pointer item in Levels)

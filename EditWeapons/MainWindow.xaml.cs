@@ -28,6 +28,8 @@ namespace EditWeapons
         public MainWindow()
         {
             InitializeComponent();
+
+
         }
 
         private void Write_Click(object sender, RoutedEventArgs e)
@@ -65,6 +67,10 @@ namespace EditWeapons
                         break;
                 }
             }
+
+            if (ReturnedAddress == -1)
+                ReturnedAddress = Mod.findAddress(Encoding.ASCII.GetBytes("global function GetPilotLoadoutForCurrentMapSP"));
+
 
             //Ask for the address
             while (ReturnedAddress == -1)
